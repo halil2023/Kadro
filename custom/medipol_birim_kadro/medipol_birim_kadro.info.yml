@@ -1,0 +1,5 @@
+name: 'Medipol Birim Kadro'
+type: module
+description: 'Test'
+package: Medipol
+core_version_requirement: ^10 || ^11

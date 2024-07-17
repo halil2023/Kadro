@@ -1,0 +1,4 @@
+services:
+  medipol_birim_kadro.data_fetcher:
+    class: Drupal\medipol_birim_kadro\Service\DataFetcher
+    arguments: ['@http_client']

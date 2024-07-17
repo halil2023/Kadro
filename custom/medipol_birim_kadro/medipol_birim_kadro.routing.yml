@@ -1,0 +1,16 @@
+medipol_birim_kadro.setting_form:
+  path: '/admin/birim-kadro/settings-form'
+  defaults:
+    _form: '\Drupal\medipol_birim_kadro\Form\SettingsForm'
+    _title: 'Birim Kadro Settings Form'
+  requirements:
+    _permission: 'administrator access content'
+
+medipol_birim_kadro.test:
+  path: '/ajax/birim-kadro'
+  defaults:
+    _controller: '\Drupal\medipol_birim_kadro\Controller\BirimKadroController::showData'
+    _title: 'Birim Kadro Controller'
+  requirements:
+    _permission: 'administrator access content'
+
